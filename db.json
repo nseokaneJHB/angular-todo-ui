@@ -1,19 +1,19 @@
 {
   "todo-list": [
     {
-      "id": "69ae27",
-      "title": "Drinks with friends",
-      "complete": true
-    },
-    {
       "id": "de0cd6",
       "title": "Skate session with friends",
       "complete": false
     },
     {
       "id": "8d1375",
-      "title": "Food contest",
+      "title": "Skate contest",
       "complete": true
+    },
+    {
+      "id": "1b44a7",
+      "title": "Eat",
+      "complete": false
     }
   ]
 }

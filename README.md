@@ -1,19 +1,17 @@
-# BootstrapDylut
+# ***Angular To-Do UI Nolan Seokane***
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
 
-## Added
+## **Prerequisites**
+- npm `version: 7.15.1`
+- node JS `version: 14.17.0`
+- Angular CLI `version: 11.2.11`
 
-- [Bootstrap](https://getbootstrap.com/docs/4.6/components/alerts/)
-- [Jquery](https://jquery.com/)
-- [Popper]()
-- [animate css](https://animate.style/)
+## **How to run the project**
 
-## How it works
-
-clone or download the project <br>
-switch to the project directory <br>
-Run the following command
+- clone or download the project <br>
+- switch to the project directory <br>
+- Run the following command
 
 ```bash
 # To remove my git files and make the template yours
@@ -26,6 +24,6 @@ $ sudo npm install
 $ ng serve -o
 ```
 
-This project was created by [Hardy Lutula #dylut2000](https://twitter.com/dylut2000?lang=en)
+This project was created by [Nolan Seokane](https://za.linkedin.com/in/nolan-seokane-6467a312a)
 
-Have fun guys... will add some more stuff so stay tune on my [GITHUB dylut2000](https://github.com/dylut2000)
+Have fun guys... will add some more stuff so stay tune on my [GitHub nseokaneJHB](https://github.com/nseokaneJHB)
