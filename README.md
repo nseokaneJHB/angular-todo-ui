@@ -1,4 +1,4 @@
-# ***Angular To-Do UI Nolan Seokane***
+# ***Angular To Do UI***
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
 
