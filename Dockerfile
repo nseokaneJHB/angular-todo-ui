@@ -7,12 +7,10 @@ COPY . .
 RUN npm i -g @angular/cli@11.2.1
 RUN npm install -g json-server
 
-RUN json-server --watch db.json
-
 RUN npm i
 RUN ng --version
 RUN npm run build:prod
 
 EXPOSE $PORT
 
-CMD [ "npm", "run" , "start:prod" ]
+CMD [ "npm", "run" , "start:project" ]

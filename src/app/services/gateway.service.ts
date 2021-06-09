@@ -10,7 +10,7 @@ export class GatewayService {
 
 	constructor(private __http: HttpClient) { }
 
-	url = "http://localhost:3000/todo-list";
+	url = "http://localhost:3000/todos";
 
 	getTasks(){
 		return this.__http.get(this.url)

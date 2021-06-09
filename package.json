@@ -9,7 +9,10 @@
     "start:prod": "node server.js",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "mock:server": "json-server --watch db.json",
+    "start:proxy": "ng s --proxy-config proxy.conf.json",
+    "start:project": "concurrently — kill-others \"npm run start:prod\" \" npm run mock:server \""
   },
   "private": true,
   "dependencies": {
@@ -24,6 +27,7 @@
     "@types/jquery": "^3.5.5",
     "animate.css": "^4.1.1",
     "bootstrap": "^4.6.0",
+    "concurrently": "^6.2.0",
     "jquery": "^3.6.0",
     "ngx-spinner": "^11.0.1",
     "popper.js": "^1.16.1",
